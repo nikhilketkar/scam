@@ -1,112 +1,109 @@
 <script type='text/javascript'>
-$(function() {
-  Dashing.widget_base_dimensions = [400, 250]
-  Dashing.numColumns = 5
-});
+    $(function() {
+        Dashing.widget_base_dimensions = [400, 250]
+        Dashing.numColumns = 5
+    });
 </script>
 
 <% content_for(:title) { "Search, Classification, Attributes and Matching (SCAM) Dashboard" } %>
-<div class="gridster">
+    <div class="gridster">
 
-  <ul>
+        <ul>
 
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="welcome" data-view="Text" data-title="SCAM Dashboard" style="background-color:#dc5945;"
-data-moreinfo="Pro-Tip: You can drag the widgets around!"
-></div>
+            <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                <div data-id="welcome" data-view="Text" data-title="SCAM Dashboard" style="background-color:#dc5945;" </div>
 
-      <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      
-      <div data-view="Clock"></div>
-    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-view="Clock"></div>
+                    </li>
 
-      <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-            <div data-id="products" data-view="Number" data-title="Products" style="background-color:#dc5945;"></div>
-                </li>
-<li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="relevance" data-view="Number" data-title="Search Relevance" style="background-color:#FF7700"></div>
-              </li>
-<li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="ranking" data-view="Number" data-title="Search Ranking" style="background-color:#FF7700"></div>
-              </li>
-<li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="uncategorised" data-view="Number" data-title="Uncategorised Products" style="background-color:#1B6963"></div>
-              </li>
-<li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="classificationaccuracy" data-view="Number" data-title="Classsification Accuracy" style="background-color:#1B6963"></div>
-              </li>
-<li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="leafcategories" data-view="Number" data-title="Number of Leaf Categories" style="background-color:#1B6963"></div>
-              </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="attribute1" data-view="Number" data-title="1 Attribute Products" style="background-color:#201DCF"></div>
-              </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="attribute2to4" data-view="Number" data-title="2 to 4 Attribute Products" style="background-color:#201DCF"></div>
-              </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="attribute5to9" data-view="Number" data-title="5 to 9 Attribute Products" style="background-color:#201DCF"></div>
-              </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="attribute10plus" data-view="Number" data-title="10+ Attribute Products" style="background-color:#201DCF"></div>
-              </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="attributeaccuracy" data-view="Number" data-title="Attribute Accuracy" style="background-color:#201DCF"></div>
-              </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="attributes" data-view="Number" data-title="Number of Attributes" style="background-color:#201DCF"></div>
-              </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="attributesboundingbox" data-view="Number" data-title="Attribute Bounding Box" style="background-color:#201DCF"></div>
-              </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="products" data-view="Number" data-title="Products" style="background-color:#dc5945;"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="relevance" data-view="Number" data-title="Search Relevance" style="background-color:#FF7700"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="ranking" data-view="Number" data-title="Search Ranking" style="background-color:#FF7700"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="uncategorised" data-view="Number" data-title="Uncategorised Products" style="background-color:#1B6963"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="classificationaccuracy" data-view="Number" data-title="Classsification Accuracy" style="background-color:#1B6963"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="leafcategories" data-view="Number" data-title="Number of Leaf Categories" style="background-color:#1B6963"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="attribute1" data-view="Number" data-title="1 Attribute Products" style="background-color:#201DCF"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="attribute2to4" data-view="Number" data-title="2 to 4 Attribute Products" style="background-color:#201DCF"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="attribute5to9" data-view="Number" data-title="5 to 9 Attribute Products" style="background-color:#201DCF"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="attribute10plus" data-view="Number" data-title="10+ Attribute Products" style="background-color:#201DCF"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="attributeaccuracy" data-view="Number" data-title="Attribute Accuracy" style="background-color:#201DCF"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="attributes" data-view="Number" data-title="Number of Attributes" style="background-color:#201DCF"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="attributesboundingbox" data-view="Number" data-title="Attribute Bounding Box" style="background-color:#201DCF"></div>
+                    </li>
 
-      <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-            <div data-id="brands" data-view="Number" data-title="Number of Brands" style="background-color:#ABA55A;"></div>
-                </li>
-      <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-            <div data-id="brandproducts" data-view="Number" data-title="Products with Brands" style="background-color:#ABA55A;"></div>
-                </li>
-      <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-            <div data-id="brandpercent" data-view="Number" data-title="% Products with Brands" style="background-color:#ABA55A;"></div>
-                </li>
-      <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-            <div data-id="brandaccuracy" data-view="Number" data-title="Brand Accuracy" style="background-color:#ABA55A;"></div>
-                </li>
-      <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-            <div data-id="mpn" data-view="Number" data-title="Products with MPN" style="background-color:#419B98;"></div>
-                </li>
-      <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-            <div data-id="mpnpercent" data-view="Number" data-title="% Products with MPNs" style="background-color:#419B98;"></div>
-                </li>
-      <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-            <div data-id="mpnaccuracy" data-view="Number" data-title="MPN Accuracy" style="background-color:#419B98;"></div>
-                </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="brands" data-view="Number" data-title="Number of Brands" style="background-color:#ABA55A;"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="brandproducts" data-view="Number" data-title="Products with Brands" style="background-color:#ABA55A;"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="brandpercent" data-view="Number" data-title="% Products with Brands" style="background-color:#ABA55A;"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="brandaccuracy" data-view="Number" data-title="Brand Accuracy" style="background-color:#ABA55A;"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="mpn" data-view="Number" data-title="Products with MPN" style="background-color:#419B98;"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="mpnpercent" data-view="Number" data-title="% Products with MPNs" style="background-color:#419B98;"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="mpnaccuracy" data-view="Number" data-title="MPN Accuracy" style="background-color:#419B98;"></div>
+                    </li>
 
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="unmatched" data-view="Number" data-title="Unmatched Products" style="background-color:#9921A4"></div>
-              </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="percentunmatched" data-view="Number" data-title="% Unmatched Products" style="background-color:#9921A4"></div>
-              </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="match2" data-view="Number" data-title="2 Store Matches" style="background-color:#9921A4"></div>
-              </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="match3" data-view="Number" data-title="3 Store Matches" style="background-color:#9921A4"></div>
-              </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="match4" data-view="Number" data-title="4 Store Matches" style="background-color:#9921A4"></div>
-              </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="match5plus" data-view="Number" data-title="5+ Store Matches" style="background-color:#9921A4"></div>
-              </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="matchingaccuracy" data-view="Number" data-title="Matching Accuracy" style="background-color:#9921A4"></div>
-              </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-          <div data-id="matchingbound" data-view="Number" data-title="Matching Bounding Box" style="background-color:#9921A4"></div>
-              </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="unmatched" data-view="Number" data-title="Unmatched Products" style="background-color:#9921A4"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="percentunmatched" data-view="Number" data-title="% Unmatched Products" style="background-color:#9921A4"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="match2" data-view="Number" data-title="2 Store Matches" style="background-color:#9921A4"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="match3" data-view="Number" data-title="3 Store Matches" style="background-color:#9921A4"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="match4" data-view="Number" data-title="4 Store Matches" style="background-color:#9921A4"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="match5plus" data-view="Number" data-title="5+ Store Matches" style="background-color:#9921A4"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="matchingaccuracy" data-view="Number" data-title="Matching Accuracy" style="background-color:#9921A4"></div>
+                    </li>
+                    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+                        <div data-id="matchingbound" data-view="Number" data-title="Matching Bounding Box" style="background-color:#9921A4"></div>
+                    </li>
 
-                </ul>
-                </div>
+        </ul>
+        </div>
 
